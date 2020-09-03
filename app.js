@@ -1,7 +1,9 @@
 
-// github.com/keppel/lotion 
-// Special Folder in Computer....
-//  root /.lotion
+// npm init
+// npm lotion 
+// >> github.com/keppel/lotion 
+// >>Lotion folder >> root /.lotion
+
 
 const express = require("express");
 
@@ -17,9 +19,7 @@ const lotion = require('lotion');
 let bCapp = lotion ({
    
     intialState: {
-        
         count:0
-        
     }
    
 });
@@ -75,7 +75,4 @@ bCapp.start(8080).then(genesis => {
 // $ nodemon app.js
 // [nodemon] restarting due to changes...
 // [nodemon] starting `node app.js`
-// App listening on port 3000. Congrats, you have launched your first blockchain!
-// [nodemon] restarting due to changes...
-// [nodemon] starting `node app.js`
-// App listening on port 3000. Congrats, you have launched your first blockchain!
+// App listening on port 8080. Congrats, you have launched your first blockchain!
